@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="d3.js"></script>
+    
+</head>
+<body style="background-color: #000; color:white;">
+
+    <div ng-app='bar' ng-controller='appCtrl'>
+        <div class="d-flex flex-row">
+            <div class="coluna1 d-flex">
+                <div class="flex-row borda-inferior">
+                    <div class="chart-gauge"></div>
+                </div>
+                <div class="d-flex justify-content-center div-graph"></div>
+            </div>
+            <div class="coluna1 d-flex">
+                <div class="flex-row borda-inferior">
+                    <div class="chart-gauge"></div>
+                </div>
+                <div class="d-flex justify-content-center div-graph"></div>
+            </div>
+            <div class="coluna1 d-flex">
+                <div class="flex-row borda-inferior">
+                    <div class="chart-gauge"></div>
+                </div>
+                <div class="d-flex justify-content-center div-graph"></div>
+            </div>
+            <div class="coluna1 d-flex">
+                <div class="flex-row borda-inferior">
+                    <div class="chart-gauge"></div>
+                </div>
+                <div class="d-flex justify-content-center div-graph"></div>
+            </div>
+            <div class="coluna1 d-flex">
+                <div class="flex-row borda-inferior">
+                    <div class="chart-gauge"></div>
+                </div>
+                <div class="d-flex justify-content-center div-graph"></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex flex-row">
+        <div class="coluna1 d-flex">
+            <div class="text-linear-graph d-flex">
+                <div><p>PAMS[%]</p></div>
+                <div><p>82%</p><p>Maio</p></div>
+            </div>
+            <div class="d-flex justify-content-center my_dataviz"></div>
+        </div>
+        <div class="coluna1 d-flex">
+            <div class="text-linear-graph d-flex">
+                <div><p>PAMS[%]</p></div>
+                <div><p>82%</p><p>Maio</p></div>
+            </div>
+            <div class="d-flex justify-content-center my_dataviz"></div>
+        </div>
+        <div class="coluna1 d-flex">
+            <div class="text-linear-graph d-flex">
+                <div><p>PAMS[%]</p></div>
+                <div><p>82%</p><p>Maio</p></div>
+            </div>
+            <div class="d-flex justify-content-center my_dataviz"></div>
+        </div>
+        <div class="coluna1 d-flex">
+            <div class="text-linear-graph d-flex">
+                <div><p>PAMS[%]</p></div>
+                <div><p>82%</p><p>Maio</p></div>
+            </div>
+            <div class="d-flex justify-content-center my_dataviz"></div>
+        </div>
+    </div>
+
+    <script src="graph-barra.js"></script>
+    <script src="graph-line-area.js"></script>
+    <script src="graph-gauge.js"></script>
+</body>
+</html>
